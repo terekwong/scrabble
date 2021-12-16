@@ -1,0 +1,48 @@
+/*
+    Tere Kwong
+    12/16/2021
+
+    css for index.html
+
+    Sources referenced: w3schools
+*/
+
+#board{
+    margin: auto;
+    text-align: center;
+}
+
+/* makes the board spaces be inline rather than stacking or in a list*/
+#board li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* styling for the hand */
+#hand{
+    background-image: url("../images/woodbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+    border: solid;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+
+/* tiles styling */
+#hand img{
+    width: 60px;
+    height: 60px;
+    padding: 5%;
+}
+
+/* gives the board the images */
+.emptyBoard{
+    content:url("../images/blank_board.PNG");
+}
+.doubleBoard{
+    content:url("../images/double_letterboard.PNG");
+}

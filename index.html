@@ -1,0 +1,54 @@
+<!--
+    Tere Kwong
+    12/16/2021
+
+    Webpage with Scrabble game
+
+    Sources referenced: w3schools
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scrabble</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="board">
+        <h1>Scrabble</h1>
+        <!-- each space of the board are here -->
+            <ul>
+                <li id='space0' class="emptyBoard"></li>
+                <li id='space1' class="doubleBoard"></li>
+                <li id='space2' class="emptyBoard"></li>
+                <li id='space3' class="emptyBoard"></li>
+                <li id='space4' class="doubleBoard"></li>
+                <li id='space5' class="emptyBoard"></li>
+                <li id='space6' class="emptyBoard"></li>
+            </ul>
+            <div id="score"></div>
+            <div id="word"></div>
+            <div id="remainingTiles"></div> <br>
+        <button onclick="submit()">Submit Word</button>
+        <button onclick="restart()">Restart Game</button>
+        <div id="hand">
+            <ul></ul>
+        </div>
+        <!-- message gets generated here when running out of tiles -->
+        <div id="outOfTiles"></div>
+    </div>
+    <!--jquery CDNs-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="js/javascript.js"></script>
+    
+</body>
+
+</html>
