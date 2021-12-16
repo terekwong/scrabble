@@ -41,8 +41,8 @@
 
 /* gives the board the images */
 .emptyBoard{
-    content:url("../images/blank_board.PNG");
+    content:url("../images/blank_board.png");
 }
 .doubleBoard{
-    content:url("../images/double_letterboard.PNG");
+    content:url("../images/double_letterboard.png");
 }
