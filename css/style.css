@@ -41,16 +41,8 @@
 
 /* gives the board the images */
 .emptyBoard{
-    background-image: url("../images/blank_board.PNG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+    content: url("../images/double_letterboard.png");
 }
 .doubleBoard{
-    background-image: url("../images/double_letterboard.PNG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 65px;
-    height: 65px;
+   content: url("../images/double_letterboard.png");
 }
