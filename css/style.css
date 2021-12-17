@@ -20,7 +20,7 @@
 
 /* styling for the hand */
 #hand{
-    background-image: url("./images/woodbg.jpg");
+    background-image: url("../images/woodbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 700px;
@@ -41,8 +41,8 @@
 
 /* gives the board the images */
 .emptyBoard{
-    background-image:url("./images/blank_board.png");
+    content:url("../images/blank_board.png");
 }
 .doubleBoard{
-    background-image:url("./images/double_letterboard.png");
+    content:url("../images/double_letterboard.png");
 }
